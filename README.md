@@ -1,10 +1,10 @@
-![Arista CVP Automation](https://img.shields.io/badge/Arista-CVP%20Automation-blue) 
+![Arista CVP Automation](https://img.shields.io/badge/Arista-CVP%20Automation-blue)
 
-# Ansible CVP TOI
+# Ansible AVD & CVP TOI Labs
 
 ## About
 
-This repository is part of [`arista.cvp`](https://github.com/titom73/ansible-cvp) ansible collection and provides lab materials. It contains both lab setup playbooks and lab playbooks for one team.
+This repository is part of [`arista.cvp`](https://github.com/aristanetworks/ansible-cvp) & [`arista.avd`](https://github.com/aristanetworks/ansible-avd) ansible collections and provides lab materials. It contains lab playbooks.
 
 __List of available labs:__
 
@@ -31,6 +31,8 @@ To run labs, you can use either a docker container pre-configured or configure y
 
 ## Use docker image
 
+> Preferred approach
+
 __Run docker container__
 
 Execute command:
@@ -43,7 +45,10 @@ git clone https://github.com/titom73/ansible-cvp-toi.git
 cd ansible-cvp-toi
 
 # Start docker container
-$ docker run -it --rm -v $(PWD):/project inetsix/ansible sh
+$ docker run -it --rm -v $(PWD):/project inetsix/ansible:centos
+
+# Shortcut of previous command
+$ make run
 ```
 
 __Configure CloudVision IP Address__
@@ -58,7 +63,9 @@ $ cd labs
 $ vim inventory.yml
 ```
 
-## Install local environment.
+## Install local environment
+
+> For people already running virtual env
 
 Run TOI in a python's virtual environment:
 
