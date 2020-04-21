@@ -1,0 +1,320 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": ".DS_Store",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "248a0c35552199949a6feb31bf0b7c8974b4a18c5d48129dae13e016978492d1",
+   "format": 1
+  },
+  {
+   "name": "LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5279f8c34079e02ad79de2944b31e0667102eb67fbbfc3e33b8cc555a8d27f69",
+   "format": 1
+  },
+  {
+   "name": "plugins",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/.DS_Store",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "50cc334be48e5b2daa5413e55338d9e97021f0ee220bf4d40c5d760409c3120f",
+   "format": 1
+  },
+  {
+   "name": "plugins/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "da5839bb9e8fcdc333e6debc5a7e8d6031256ba156d55d638130ee61599babc8",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/cv_api2019.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1c885ea36ae6214f3b669dec310955ce96e989a65ac53f8929508784462c0a03",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/cv_api2018.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4b975b5e6d1ceeb322cebffe809cc7272e3d43e20dd4aac13a015964ad1ce685",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/__init__.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/logger.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "46c1cda25df2abfacb3310aedf84407b6bf275c2640d4da7488fae28a9826c37",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/cv_client_errors.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5ef91da2b6a7873599efdf721c68f7e79a25c524ea744143d5c5307865961bcd",
+   "format": 1
+  },
+  {
+   "name": "plugins/module_utils/cv_client.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "84f9a184ce57f326b46700642de86fde7b2f4662844d5597df1d0e8dd3afa521",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cv_configlet.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "09b56e8e56967c1f531547d2a8e92fc2ee913dbf3a5357a5c0a758e727f952df",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cv_facts.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8bf9a88f597a547c7dd385013aee9e7c490b4bcdba6a15e8eec96bbe12e303bd",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cv_container.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e2489121d55729cd06675e277fc5784e0b005af4470150e6b7d4d9023d587d46",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cv_task.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cca9454faf08329b57dc07edac7988217d2b28379fe947713145ce1cdf6ba71f",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cv_facts_v1.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "27cd1c59bc6764e645a1d15d03395ed2fa2c7bffe51cf6589f1b7d9ead1c5cfd",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/cv_device.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6f891d9aa59110658836b67fd7c41d03405d7a962c64e12d522610afe6395303",
+   "format": 1
+  },
+  {
+   "name": "tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "tests/ansible.cfg",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ee18196c992b73bc240c278cc9f9de75183bae843b63dd18c4cb64893c1e9eb8",
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/vars/centos.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f951eb497add7f66f9b12eb4755e1eb743bd7e020898962c2867c6f8e7a98cbf",
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/vars/debian.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ccbda6129fe7c379c66d9d32eafef35dafbede3d4f2a58620a19c63540322683",
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cf95fd44067048248eda1ecc3529bd9db226f072bce930a7d0707f51441ace12",
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bbeb0bf324ceb21c2cab2d2f475b465fc6737bfab84a998a3f9ebafe092c4d84",
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "15059ad2e6b8bd9aecf2cbfef869d17278613bc6a37d4941af8b1a1837fee90d",
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e02233819b1a09844410549191813f7cc7ba360f21298578f4ba1727a27d87fc",
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "73425bf139aa212999aca6ee47ef7b60f6ddb7e44815b25d576384345eda1ff7",
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "acd862bc1c854835586a5714ce8349e314417cd0bda3e96f796ca94fa8f966c9",
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e0d637367725bd4f0ed56aceb694ddb941f87c140dc2663aad56a43bf1660852",
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/templates/dhcpd.conf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cad2485be0ed438ccaf9a05885316f6c86e640aa5de531669372aec831946274",
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/.travis.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "43e63a93716f15cdb102c201e4631be604b45910b8c749c78d89e3fc076c7c7e",
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/dhcp_configuration/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5fea1390635627c3078c6ab956cf4643ec2794dcaecb0f7b7a3cbb936d38b172",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2294e23165952347c0814989d74229ec8864993378192451598fdfb8f3438cc8",
+   "format": 1
+  }
+ ],
+ "format": 1
+}
