@@ -7,7 +7,7 @@
 This repository is part of [`arista.cvp`](https://github.com/aristanetworks/ansible-cvp) & [`arista.avd`](https://github.com/aristanetworks/ansible-avd) ansible collections and provides lab materials. It contains lab playbooks.
 
 <p align="center">
-  <img src='imgs/cv_ansible_logo.png' alt='Arista CloudVision and Ansible'/>
+  <img src='docs/imgs/cv_ansible_logo.png' alt='Arista CloudVision and Ansible'/>
 </p>
 
 ## List of available labs
