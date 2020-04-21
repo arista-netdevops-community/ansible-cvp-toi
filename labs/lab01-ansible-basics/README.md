@@ -4,7 +4,6 @@
 
 Basic commands to test ansible with a basic installation.
 
-
 ## Execute lab
 
 __1. Test Ansible installation__
@@ -25,4 +24,3 @@ __2. Display variables for a given host__
 ```shell
 $ ansible DC-LEAF1A -m debug -a "var=hostvars[inventory_hostname]"
 ```
-
