@@ -1,0 +1,11 @@
+---
+# OOB Management network default gateway.
+timezone: 'Europe/Paris'
+
+# dns servers.
+name_servers:
+  - 10.255.0.3
+
+# NTP Servers IP or DNS name, first NTP server will be prefered, and sourced from Managment VRF
+ntp_servers:
+  - 10.255.0.3

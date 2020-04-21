@@ -1,0 +1,10 @@
+---
+  - name: Generate EOS Configuration snippet
+    hosts: eos_devices
+    connection: local
+    gather_facts: no
+    tasks:
+        - name: Render configuration files
+          template:
+            src: 'inputs/eos-template-demo.j2'
+            dest: 'outputs/{{ inventory_hostname | upper }}.cfg'

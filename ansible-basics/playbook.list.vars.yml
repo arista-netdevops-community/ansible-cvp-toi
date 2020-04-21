@@ -1,0 +1,12 @@
+---
+  - name: Display Host Variables
+    hosts: cv_lab
+    connection: local
+    gather_facts: no
+    collections:
+         - arista.cvp
+         - arista.avd
+    tasks:
+      - name: 'Disaply var for {{inventory_hostname}}'
+        debug:
+          var: hostvars[inventory_hostname]
