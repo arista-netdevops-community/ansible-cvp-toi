@@ -6,7 +6,14 @@
 
 This repository is part of [`arista.cvp`](https://github.com/aristanetworks/ansible-cvp) & [`arista.avd`](https://github.com/aristanetworks/ansible-avd) ansible collections and provides lab materials. It contains lab playbooks.
 
-__List of available labs:__
+<p align="center">
+  <img src='docs/imgs/cv_ansible_logo.png' alt='Arista CloudVision and Ansible'/>
+</p>
+
+## List of available labs
+
+- Ansible Basics:
+  - [_Basics and template management_](ansible-basics/)
 
 - Arista Validated Design:
   - _AVD Lab_: [Use Ansible as configuration builder](avd)
@@ -19,90 +26,8 @@ __List of available labs:__
   - _Lab 05_: [Devices](labs/lab05-cv-device)
   - _Lab 06_: [Tasks](labs/lab05-cv-tasks)
 
-<p align="center">
-  <img src='imgs/cv_ansible_logo.png' alt='Arista CloudVision and Ansible'/>
-</p>
+## Configure Lab Environment
 
-## TOI Lab preparation
-
-All the labs have been built using Arista Test Drive topology. Start an ATD or ask to your Arista representative to access to a lab.
-
-To run labs, you can use either a docker container pre-configured or configure your system with Python and virtualenv.
-
-## Use docker image
-
-> Preferred approach
-
-__Run docker container__
-
-Execute command:
-
-```shell
-# Clone repository
-git clone https://github.com/titom73/ansible-cvp-toi.git
-
-# Move to directory
-cd ansible-cvp-toi
-
-# Start docker container
-$ docker run -it --rm -v $(PWD):/project inetsix/ansible:centos
-
-# Shortcut of previous command
-$ make run
-```
-
-__Configure CloudVision IP Address__
-
-Go to [`labs`](labs/) folder and do the following command:
-
-```shell
-# Move to lab folder
-$ cd labs
-
-# Edit inventory file
-$ vim inventory.yml
-```
-
-## Install local environment
-
-> For people already running virtual env
-
-Run TOI in a python's virtual environment:
-
-```shell
-# Clone repository
-git clone https://github.com/titom73/ansible-cvp-toi.git
-
-# Move to directory
-cd ansible-cvp-toi
-```
-
-__Install venv__
-
-```shell
-# Install virtualenv if not part of your system
-$ python -m pip install virtualenv
-
-# Create a virtual env named .venv
-$ virtualenv --no-site-packages -p $(which python2.7) .venv
-
-# Activate virtualenv
-$ source .venv/bin/activate
-```
-
-__Install Requirements__
-
-```shell
-$ pip install -r requirements.txt
-```
-
-__Configure CloudVision IP Address__
-
-Go to [`labs`](labs/) folder and do the following command:
-
-```shell
-$ cd labs
-
-# Edit inventory file
-$ vim inventory.yml
-```
+- [Arista Test Drive (ATD)](docs/atd-setup.md)
+- [Docker Environment](docs/docker-setup.md)
+- [Virtual Environment](docs/venv-setup.md)

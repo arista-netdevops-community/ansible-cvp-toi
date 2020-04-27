@@ -1,0 +1,32 @@
+{# Device Configuration #}
+!RANCID-CONTENT-TYPE: arista
+!
+hostname {{ inventory_hostname | upper }}
+!
+clock timezone {{ timezone }}
+!
+{# Basic FOR LOOP to iterate a list #}
+{% for name_server in name_servers %}
+ip name-server {{ name_server }}
+{% endfor %}
+!
+{# Conditional Execution #}
+{% if ethernet_interfaces is defined %}
+
+{# FOR LOOP to iterate complex list #}
+{%      for interface in ethernet_interfaces %}
+interface {{ interface['name'] }}
+   description Connected to {{ interface['peer'] }} - {{ interface['peer_interface'] }}
+   ip address {{ interface['ip_address'] }}
+!
+{%      endfor %}
+{% endif %}
+
+{# FOR LOOP to iterate a dict #}
+{% if vlans is defined %}
+{%      for vlan_id, vlan_info in vlans.items() %}
+vlan {{ vlan_id }}
+   name {{ vlan_info.name }}
+!
+{%      endfor %}
+{% endif %}

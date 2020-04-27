@@ -1,0 +1,34 @@
+{
+ "collection_info": {
+  "namespace": "arista",
+  "name": "cvp",
+  "version": "1.0.6",
+  "authors": [
+   "EMEA AS <ansible-dev@arista.com>"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "arista",
+   "network",
+   "networking",
+   "cloudvision",
+   "cvp"
+  ],
+  "description": "Ansible Modules for CloudVision Platform (CVP)",
+  "license": [],
+  "license_file": "LICENSE",
+  "dependencies": {},
+  "repository": "https://github.com/aristanetworks/ansible-cvp",
+  "documentation": "https://github.com/aristanetworks/ansible-cvp",
+  "homepage": "https://github.com/aristanetworks/ansible-cvp",
+  "issues": "https://github.com/aristanetworks/ansible-cvp/issues"
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "e89f4bdadedd532c64c8c63657cbff4cb22d91cbf7fd44720cd223092cd3327c",
+  "format": 1
+ },
+ "format": 1
+}

@@ -1,0 +1,11 @@
+---
+ansible_connection: httpapi
+ansible_network_os: eos
+ansible_user: ansible
+# should use vault for passwords
+ansible_ssh_pass: ansible
+ansible_become: true
+ansible_become_method: enable
+ansible_httpapi_use_ssl: true
+ansible_httpapi_validate_certs: false
+# Configuration to get Virtual Env information

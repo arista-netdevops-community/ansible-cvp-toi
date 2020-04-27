@@ -1,0 +1,1566 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "LICENSE",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "efea02330ee187965f0d0566f1987765030499f67afb84e96338f34c9ae08dc4",
+   "format": 1
+  },
+  {
+   "name": "plugins",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "87fc30aba05b9d95838569c9d5022b1d8f898d7ee2ec48f4763b940006f28b07",
+   "format": 1
+  },
+  {
+   "name": "plugins/filter",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/filter/list_compress.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a8f826fc275239398cbaff81b89ebc3f875cfbe806edf83474c6160e3cc994d6",
+   "format": 1
+  },
+  {
+   "name": "plugins/filter/natural_sort.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e15a790748e67c97c87fd41554cd5919adfb73b0dd21672b8e4e757af029edb2",
+   "format": 1
+  },
+  {
+   "name": "plugins/modules",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "plugins/modules/inventory_to_container.py",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e860d8d237cb0025c136f72054baadb86ca2ebc21714943a8b4d833e2888e5f7",
+   "format": 1
+  },
+  {
+   "name": "tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7b690c1665c972509049da7a346241cf6c98e4d6a11cf20239de9718541462ee",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c0b829ea7382307dca9f6b21a712b42a245cd85a66b71605b0ca263e854e32f8",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e02233819b1a09844410549191813f7cc7ba360f21298578f4ba1727a27d87fc",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5deeddb7da65232c9f889eb967ffebd0e978d49a267e472c2c830b897a0a8beb",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "11fa6e891a242a9194c508e38fce91414433f49b52c2d9014fe8d27214328fda",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "af5ba6ca2767d37acf8d60235e265c2a15f8ada78ad57a978a99d9e238fec498",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/documentation",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/documentation/dc-fabric-p2p-links.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "822bca654c44e8f43b3a2b6cb68bd77ea179db56a5fd0af54d4a4b10a40616db",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/documentation/dc-fabric-documentation.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ab5d21ac27282d53f02baee10a0815d3cac52a503a2190f2c953f45f2b54c0b1",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/documentation/dc-fabric-topology.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "88bd91e10df95e1fef03f6c1374ac4093981a3e5f55a383a0b62a9ad1f63387c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-tenant-vlans.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f7a0123559105d77065952e50d17f5e903494a0ee23e63deeedcb8819f8558ab",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-tenant-vrfs.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f4449062be5de30178334b02efdc98ac1bc97d19019b35aba51bb1535471d423",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-tenant-router-bgp-evpn-vrfs.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "71044dacd9353b7d5a3f0ec3aa4a9c4dc608c922f03844f6689404a4f01e8cf5",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-vxlan-vtep-interface.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b0bb94f555d7f6b2108d7fed581742a27ae3251818c608927c4a5b06b21ee585",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-tenant-router-bgp-evpn-vlan-aware-bundles.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cf28fcc199781be4288075d9668563d9eb43d7169aae04c2722b1882f5029bff",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-tenant-vlan-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3d4301f8de57ad29ea67dd93faf1d2dd4b4c959c0c23e53fddec367061a0f7e8",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-tenant-router-bgp-evpn-vlans.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d550609db898f43eca0f5792d347826be89430d35485abb368ba7b73d2d4fd6e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-tenant-virtual-source-nat-vrfs.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0fe4e49a8c5beb8d4ebfb649190470f5b79aef508b3657361e6f53428b9a583e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/tenant-evpn-vxlan/leaf-tenant-vrf-loopbacks.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "741ca9514b120730edba55244abc8617003829c96b3680b597f0802adfed565f",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/evpn-fabric-l2leaf-yml.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f465c57d6ba36636a31bdae0c9889b2c9e89f33468d554e64d847565f4a2a5a6",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/mlag",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/mlag/leaf-mlag-spanning-tree.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "63126c6622e41409d194ae06b29df0f94476f9b8233ac3bb1b9c39e69b996a71",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/mlag/leaf-mlag-vlans.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "49f23c40c7957650f1604f292d2b205e3d540da4a1876ddac8e2cb43c0b362af",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/mlag/leaf-mlag-configuration.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "039bd3fbb78d506f7e9247cbc4f99a4167c08daf556240f411d82c450040abc5",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/mlag/leaf-mlag-vlan-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c63e4b722dfaf26223444dd7ad5411991606b0a5eec5d8f28e1dea3e6fff4aa2",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/mlag/leaf-mlag-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "69621ede637f042260d439e3742997f0fe3f6276706b2591220d03627fe239fc",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/mlag/leaf-mlag-peer-link.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8b2b2bb49612f9b3b20d21eabdce365a792688615e3b21df611abcbbbe499d39",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/edge-ports",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/edge-ports/leaf-server-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "518c80589b0badf6495d1dea30669b5e3a86fdc500dd744e2dac115f1f07a873",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/edge-ports/leaf-server-port-channels.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6929a75555220792f7717bfcf7d046496246805d68f5cd449892ce7846ed4892",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/evpn-fabric-l3leaf-yml.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f629210e0c10fa3d24728573cdf2cd5d0b065cada79cb4b8ead1084ef1cc76d3",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/evpn-fabric-spine-yml.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0845776967af8be29bfd5e858249682b0a245bc09704a1b50f5875d52ab326e2",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-router-bgp-neighbors.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1f8f71d9a4b4880bc20f0c87b1bd8713adf7af136dc8c7c9cacdad865f83bfe1",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-router-bgp-base.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ab09c5dca1b9ea50a93edfa2980473662769f48a0e51b318eca970b2c35b16d0",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-peer-filters.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "72aba91df2309e51575a5a7cd834f6cdc2b9f5cf473c191fb41682ab86284ede",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-prefix-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a3dc66ff5b6bd0a37893237dd282d219af74c4a709e7dfd6784fbfefc2a2923a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-overlay-loopback.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "488db4cb0c7703156fe4250877f70b3bd86d05a9e6063e39a82464bc9fcce670",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-router-bgp-base.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "26f254fa04172ae0cfcdf277579cc6af044e50c059bed7b37913bd297173c146",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-router-bgp-peer-groups.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c00b454a10dad2fe0c999eeac31433d31c6f66d5726b546e5ba2dea29d69b794",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-vtep-vxlan-tunnel-loopback.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "89b26b73ed24300ff83543a1b89e2915b0931f448d0c8cb932841b7057bbea01",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/router-ospf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a2a0cef745ee6dc7b41de209c2271873fe60c82d27efa269ec67b33b6a0d2d36",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-router-bgp-neighbors.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "00cfda918df77df5c55cfbec874f0a10384c435c12b72edd83c315dd1da9408d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-p2p-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "db7f785da0f99ea5660156ee46074d0536843b7ab590c1f60168cf7bb50456ca",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/route-maps.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "073b35dc66bb0b15137b96888fc8612965269d33c043ff71f294013d8cf78384",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-overlay-loopback.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "30a9f0e4d2db18b819bf60a6a5f324aff3537b2de8b240344a48fba15d82aae1",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-router-bgp-redistribute-routes.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "64f1014e16be3b2f25cecafec5644d999e091ea4aa3430651929c657e923dd2d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-p2p-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "75f9aa14442579653102f39f1a4370f99be4ca79f03662ba960c48daf3fe35eb",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-router-bgp-redistribute-routes.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7bef584fc575d3ab30d677f8187d2313e682dcc20ee4f6164efe52034a28e007",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/leaf-prefix-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f2789e6182e5953719454dad6307b5cab5de32b4ad689a51876bfb2fc1e8c2ef",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/underlay-overlay/spine-router-bgp-peer-groups.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5fc87ffedcd52503f0866bcee6960deb0dd84739b63c197fbca6329c868bc3ef",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/routing",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/routing/static-routes.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c353c9601bfc6c3a5d80934acd9cbcfe3170f361f5367b3c2eb91840fe29ce53",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/l3leaf-l2leafs-uplinks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/l3leaf-l2leafs-uplinks/l2leaf-ethernet-uplinks.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1e2c2a6e6e7f961eb8781ca2728721736300d1fe6d9d3d4ebdf78b24412e0685",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/l3leaf-l2leafs-uplinks/l2leaf-port-channel-uplinks.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9af8a92a594fe48925996f974156985421cf4e70a9a815395d85afe058f69e32",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/l3leaf-l2leafs-uplinks/l3leaf-port-channel-uplinks.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "686630842c1d0fa3c0b703e7aa86950481a305c8333d9244eacb66c2260c8b90",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/l3leaf-l2leafs-uplinks/l3leaf-ethernet-uplinks.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "576b4415a2739d774ab0d72bb8bc851085298551be6ed36cfabc0a258f020e17",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/bfd-multihop.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cc161f328d83ee3412e316972457c2f06f322abafb93fa7aed6ca78ee5c60026",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/mac-address-table.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "911c6447e5c9aa959682d98bd84937e2953d9688202988c4c2bb2a6deda9cf82",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/unsupported-transeiver.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c60e83747519d264c1f2c43d84e007f85b04ef194af02263f751c8bf20f31577",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/local-users.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4f01a8c590ea48650399ba24db45c52a771f43061ea4a9a131955973cea339af",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/name-servers.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8150b0c8dd12cd63643ce33362035bb834cbfbc1398632ea7d5ee8b472cae6a6",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/clock-timezone.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2333d6d5e8459acda1c9284e6b2ac520b05040dc95cb2494787db3a228d63632",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/queue-monitor-streaming.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bf686b3cd469248807da86a62b8fbd39c3c88acc028ceb46137587bcdb3d68df",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/spanning-tree.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e70641eafb6acca0d1d96625830c51bab438cf94fd509cc9e80c7d07f06f3d53",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/tcam-profile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c9da33ee27340aa5cec07bcfe6dabc5586b1341d2b638bbdc3390f8e7152c18c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/daemon-terminattr.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "aa2ed23ad10eeca94bdf8e1b8460a03834807552898f6536e636f2e925be4589",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/hardware-counters.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2273095c0357ffc2bfc3d954d4bf715b3a2b5f50f628e4c7b3cc206ff4f0f0cf",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/mgmt-vrf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f50b65cef8c991bcce04bbdd3fda5cd884f1dab22dfdbf144d70627856e5461d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/vlan-internal-order.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e159ceb57a459da69e46b117a48018bdeb9793f6c265a072a18f3e817e5d42af",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/queue-monitor-length.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "859847b3b6627714600283ac271adc9b57a8fcb12802b3ffb726bb1aae617abd",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/management-api-http.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a8bb62eb9eac08cf604e00c93af45f3951e2e9f0b4f6df90100087b5e9d4e4c3",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/load-interval.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b83aa4d99c709c960ef454f13fad97eb3d1dfce1456774acc52e90d2231fb6b4",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/mgmt-interface.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c77b109c05850543c5325cea1e63dc73871047593d22e0efd133e9c2f9adc81c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/ntp-servers.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a0aa229fe8b5aef4d6d0a322de30c31d9aef68635b8c559a1d0fac6cc9af0bbb",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/logging.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d22a7e8b8a766964a9ffa3dc7cc04ced70e096030c61e01aba28d9c1273c0d1a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/aaa-authorization.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "77b1207c6cb28194f887ab683fd634df7c866740d84aa8195fa1934c161cefc7",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/redundancy.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2cb893a42ca4513e36dd994d857509aceafd5a2fb5b382aef11e66a4d11b818c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/templates/base/event-monitor.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9dc16e20b35b63f1a0fc43bcc6333f34c770655be6e2db1832232da52380bda2",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/.travis.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "43e63a93716f15cdb102c201e4631be604b45910b8c749c78d89e3fc076c7c7e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/media",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/media/figure-2-topology.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1915a044c100fa0fe49bc83a1670033b62342dc11681eb248efed288ca8d4617",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_l3ls_evpn/media/figure-1-role-eos_l3ls_evpn.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4d5b023911b53c421ca392877f15438410141651dffc318e8b25ed755767023c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3b933480ac51da0467028688a1243a51f94fa69969ab267d47b69777fd94171",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "39a475ed560419306b5328cfdc3ed30924a5781f429962fe1425aab6ba737b2e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e02233819b1a09844410549191813f7cc7ba360f21298578f4ba1727a27d87fc",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "05fed6ef51a0019f7099f2b8c10aa49fe86aa40baa6805d8df6c03b31e237da5",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3bc843180d6ba6401de966e9e4adae1fbf3f3b9357b84fe7ac1c3bcf05aac62f",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/management-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b4f4aefec515e44b812e2406394c0ebbce47b3f37164739e066d67f07bec07aa",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/local-users.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "031f6cb600ae7bfaf5b33838e3f77603cb1eb9fc2eebb2d869bef7a08b01a8f5",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/name-servers.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7a7ca36d8ad525ca92cbe1f7e03841e4ac235eb440127ffd2067f3405fa4b6c4",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/router-bgp.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5deb6a558a1ad7d164b0750c17e60f6f0bcc48cb296e2f4ccc9b2dc6525bf4f5",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/ethernet-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b3cf2e0ecd7bc13a82ee8762a51ddb3c79b314a7f8497f79e54f4d9f0c91107c",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/vlans.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "75a9d4ff310bd88ac47e1c8d1679288b7875212840dcbad661ccba5e1c10bb03",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/spanning-tree.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fc82ed61f2ca25af0f87f3c4003224266dd565a74cef1479d5f5b862a9f8ab5a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/mlag-configuration.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "68ceb26d6367d5ca68f088b8749e7282b59a374a96f0403efacd26dfd7552a15",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/daemon-terminattr.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "202504a87c5bdc55db563f50b029877d9d73fe60f7085224dfda4d5226c0a08d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/hardware-counters.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "95f2e4e2cd63659b6b4c3e9db21041a4ec902bd6b85f7efdd6d6604f24c6862a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/vrf-instances.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7e18f31cd424efb9c7d3c41aefe4332318ccd55cf48d217abae67bb8764c9933",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/virtual-router-mac-address-virtual-source-nat.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c17abdd4bfe96f57c675632f74b011e1faa655b58a0e7a4a90d3c65927dcc5f6",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/route-maps.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "d83a804ef4f31469e26cd974e1ea4ed92e08a212ca530b8d3c8b052db4bfc2c0",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/vlan-internal-order.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "50691b01e1bed570f4616d5c1211e55bbbdadd39aa97019720f404f939ceb4c7",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/vlan-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7b136e6c202d185941ac107671d723cc036cf11b973a76015220f7bb5608df5e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/ip-routing.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "78eb7fa5d1c2935129f9f2f3321c488b12a6a0fc0b5daa2a48ec8c97e66149a2",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/port-channel-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "65bb06537bb373723602696c95067bb4eeb9b7523ff6e0ab574d354f4fa30658",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/peer-filters.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bc194a5a31c6577c8469ce28b1100636a2b58bfc420560a29221fa7b33f80a29",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/prefix-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "61bec2b1f9a0878633a64ba3ee346ee363beb1b64d78adf91eeb8991442020fe",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/aaa-authentication.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1f531b7c1abe0556e8e078ada0b351c8965e48adb4a6221fd5466efc6d3ac1b4",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/ntp-servers.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "018ca263460d270d4aa9d1749cb0a4ad2e9b50197158079350f9a5abcc38bf50",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/static-routes.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5f4da3fa604885e4079ff5472a4667d48cf932fa78077e4e78acc19a9ccec2bf",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/vxlan-interface.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f7fa1be8e199d1e5067d402fc35b4bcac2a3eedca14c5cc221b582f64b8d0312",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/loopback-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5367938b460e1a8e938c325893cebb1a2622cb41d5a0f2562115e59230a35e66",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/documentation/bfd-multihop-interval.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b9cead3da454f613fda3cea6e9c18ea46c2eca585aaaae71217eeb1570f0c92f",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos-device-documentation.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0726a33592176bad2bb47aec535913e9b5bc59c82e533475f35a91797e7ef46b",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos-intended-config.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9aa0720f2a75aef813f1fa9e3ff09fb159af9cee6725abf9ce4c56e194478bb5",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/mac-address-table.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5b556ecf5099f70cf685230ebda644ce2a152b1f703bbdaf5dc3559ef20b96ab",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/management-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "99804a81668d19217b502b36cf8667da4c224473a4ae9fd90b62e15dc3414247",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/unsupported-transeiver.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bd80e1d6a0c5bfa2bbf0ad419800594e4e1b60127b2dc6acde09f47346f42ac0",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/local-users.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "37964a431fcd79bb1fe2904f1c988de348dba727e906712f1a75da4bf12a65a7",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/name-servers.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7a45f719459003dca0c770f5ba3572d99a69b5b098b221fb6def7183215becb0",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/router-bgp.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "12001ab9613691a8c0f76bcf058e31971de8efd7280678cc16e790f0755bbafc",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/ethernet-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "46c8706042f3df68b69f1fcb2555d810187a01f660e8e879a3a0c8b0b473f5e2",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/clock-timezone.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "27c81abd4fe1d71045b3a75672a7efaee28f08f48b6a55d9283ab365fa986e87",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/vlans.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b63fba87ba1048a2f62fced95038d3c637d3ca70e241bd898f1cb2d962dfca5b",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/base.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "078da3b3dd6687c1f68ef8cd8db01f861cc27db85100ee29bfa7c12e06c7e376",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/queue-monitor-streaming.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6f49e3c2aaa57740b10039cbaf5d0c3710ec6e6887c1da4929add54136f7eb95",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/spanning-tree.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "61ad56114ae1b68506a9b764729dcce94031876ed6091e64e7f0a270c7a34dd7",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/mlag-configuration.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "1086166256a564927ed079b19076b0583ffc299a097d8f7465de48402df12819",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/tcam-profile.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "570c8e0b9be9dc3685db1701bc65b1c622d856ec88971bf94b3f783d0b15d44b",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/daemon-terminattr.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2b1eacf1102ce412b603ba70b72b7000b8c9d7ddb7549df60cfa87dd1a75a0f5",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/hardware-counters.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5be80d0d1c9942e9af3372f69368c38f4be1234258c3d34bc3ed0e56dd6557d2",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/router-ospf.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cc7f0f21ae04d57e1e90e5f95c6139bcd61b2c22302e606e2826b0c0201154b0",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/vrf-instances.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "75388054638bd2be1c3d7b8ff1bd71c9fdea6d8f3ed620b76e693fa9b7dc4ff4",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/virtual-router-mac-address-virtual-source-nat.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "145223f779a0cd842733f8037ab285e3144a74826ba65215f0d7998e74f782d7",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/route-maps.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "31ab82f9132dc099fe66e9441c21af66b3e76360d00b435d542fbb8b616ae103",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/vlan-internal-order.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c8dac5af5ff2fb994f06a73539e9563ef1558a243b2d82ec2e9857a916c4ed29",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/queue-monitor-length.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6258c45d196a5b23cd472606616b7b3e42f7fcbf30e61a03b179739ae05906f5",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/management-api-http.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e3946803c011384ada076894c6112bea06d4feea357185ef2829c37ca3b83dea",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/load-interval.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "50ba520e767dd718fbc472a33f168f4f05dff5f013e4aba1c0f1327dfb971c51",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/vlan-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4db62cbd3a673173ac3c39fa9b2801cd04a2cbe0bacf6d2ca95ee2c693b10767",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/ip-routing.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9101407d6fdf3a765f0d6a18dd3670250655ceac16e4d6467d2832dad4a4f78d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/port-channel-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2928c1bb2e653076ae8df47f4124c23495153b13a7108025b824fedc3e3fa31d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/peer-filters.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a7778e28ef2b61dfd3ed9ffb3ca22c301eee0b9316c57a332edd6f35259a5f06",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/prefix-lists.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f6236c6f27b9c9defa245d52ca89c18743e322d409049da5675ec2836b50996a",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/ntp-servers.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "26af4d4c7b3ad8540a1ded873ec498041d21bcce58b3c7a282cdd4fdcc0848b3",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/static-routes.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c695d23d13138e54c10604088ecbfb4aff886dafac3eb348ce6ef990506be82e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/vxlan-interface.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fb6bb8ed0f37586c5afd698caac0da3d9b81bfd4f1e79b395df811c76d910357",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/logging.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9232767df5facf0f0129f4ab07514cee01423bd72657566edb80431e6ad72324",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/loopback-interfaces.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ee80a8c3de25dae29cade95943e98d58d44ef7a968e5ee890b085b1327ca7b17",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/aaa-authorization.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0620d4b6b0a82de4036fdeeb619df23dcf49631c761eb479e8ac580eee383049",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/redundancy.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c49da85583ca4d35c602bd890f68625b830abfdcd31fbf1902d081a9d83a4b2d",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/bfd-multihop-interval.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8537888e6a53dfe82986aba59ffa8f329947868553f5bc249fe32171c9a3eaac",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/templates/eos/event-monitor.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c17dfe8dbab8fb572e463bb959c796d59063fb6f9dea8f6997a975bd60de19fb",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/.travis.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "43e63a93716f15cdb102c201e4631be604b45910b8c749c78d89e3fc076c7c7e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/media",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_cli_config_gen/media/figure-1-role-eos_cli_config_gen.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "aaa1136c539d15f571e101a6f62df068e4d98ef80e834a18cfb7b0383bb011eb",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a7b4138ab9fee8de66d366fbcde0eb0d6ba38e53fb895c9dd2d637bc27fade78",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/tasks/absent.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5cc427a9dddedf829c0c87b7a4247808fb52cff60a5213326e2c15c4d3501528",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/tasks/present.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2444c2b3956e3c38ca8306f5bd4bff1b42a6fac953daa92ce74fd78fabd97e50",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "12cff33c475e28d72d94a05aa5a4a678f9afe87ca1536116a724737b99247305",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7d4692cc0ab4c166dd18fa9443183139670a952798e6aff15d0e75439b9d4289",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e02233819b1a09844410549191813f7cc7ba360f21298578f4ba1727a27d87fc",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "53375d7251f757373522cde82ae4e42a220bf8719b3065eb532bd7e945695c93",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6b31d14e10f7df429b66e7ff50887627a30650a782b3e2a6861a517b4c02f96f",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5314c6874c95361007c22a24840d665f342256fc9e2244f55ba23786d946e117",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/templates",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/templates/cvp-devices.j2",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a3c0161602c8451a6e137e222858117297741163789818c38e05a70f3db6adc8",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/.travis.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "43e63a93716f15cdb102c201e4631be604b45910b8c749c78d89e3fc076c7c7e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c943df9bcd43ae3a3eac8f27506b8b5e7696a541f2ba0dc4cb3a0a88fdaacbee",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/media",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_cvp/media/figure-1-eos_config_deploy_cvp.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "34a65db55758fbdb986966848dab99ee41b9c02a35d3ad302fb250d9b1c24b0f",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "ee28a68f4d0058939f81314900d215a3a56db13013c90af3c9c521b3bacb8ac3",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/tests",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/tests/test.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b1dfda581cae48cff0ef187f6fe5a75531407adae99e9528a43834f3206b88e4",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/tests/inventory",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e02233819b1a09844410549191813f7cc7ba360f21298578f4ba1727a27d87fc",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/meta",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/meta/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "205e7a56f58991e0e93a9bb9f56afb6a698b5a6357e5919832ba705db06c6180",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a008cf006ba46ea1c19f64e1eb12c1cce8726614ac0b8be078b6aaa9763d9e2b",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/.travis.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "43e63a93716f15cdb102c201e4631be604b45910b8c749c78d89e3fc076c7c7e",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/handlers",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/handlers/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "963d943796dd55590751a1a160213f7260ba1a96c8de5aabb0514f7cfd4d0e01",
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/media",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/eos_config_deploy_eapi/media/figure-1-role-eos_config_deploy_eapi.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e2cb782e481d2d9dd29863e8b15e20f61e3a9e32004a28976974060de87ec370",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "e55ac8f2fd3a696483933f7156f3680027cd5287716bde35035bda95ef0ea560",
+   "format": 1
+  },
+  {
+   "name": "media",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "media/figure-2-example-playbook-evpn-deploy-eapi.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "956124150dcb710ed5a46adcbf6f1bd338ca09de2d144ba05599da93563a7fe7",
+   "format": 1
+  },
+  {
+   "name": "media/figure-1-example-playbook-evpn-deploy-cvp.gif",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fe0e86e8917d3a7e931975e96e9e9ccb0d12b4139eb0ae0c6b05f18d9a5e88a6",
+   "format": 1
+  }
+ ],
+ "format": 1
+}
