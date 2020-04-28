@@ -20,7 +20,7 @@ cd ansible-cvp-toi
 # Start docker container
 $ docker run -it --rm -v $(PWD):/project inetsix/ansible:centos
 
-# Shortcut of previous command
+# (Optional) Shortcut of previous command
 $ make run
 ```
 
