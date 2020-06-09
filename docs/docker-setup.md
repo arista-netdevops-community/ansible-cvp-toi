@@ -18,7 +18,7 @@ git clone https://github.com/titom73/ansible-cvp-toi.git
 cd ansible-cvp-toi
 
 # Start docker container
-$ docker run -it --rm -v $(PWD):/project inetsix/ansible:centos
+$ docker run -it --rm -v $(PWD):/project avdteam/base:latest
 
 # (Optional) Shortcut of previous command
 $ make run
