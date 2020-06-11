@@ -12,7 +12,7 @@ Execute command:
 
 ```shell
 # Clone repository
-git clone https://github.com/titom73/ansible-cvp-toi.git
+git clone https://github.com/arista-netdevops-community/ansible-cvp-toi.git
 
 # Move to directory
 cd ansible-cvp-toi

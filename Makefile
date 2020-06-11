@@ -1,4 +1,4 @@
-CONTAINER ?= inetsix/ansible:centos
+CONTAINER ?= avdteam/base:centos-8
 
 .PHONY: help
 help: ## Display help message (*: main entry points / []: part of an entry point)

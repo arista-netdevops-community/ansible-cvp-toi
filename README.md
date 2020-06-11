@@ -1,4 +1,4 @@
-![Arista CVP Automation](https://img.shields.io/badge/Arista-CVP%20Automation-blue)
+![Arista CVP Automation](https://img.shields.io/badge/Arista-CVP%20Automation-blue) ![Arista EOS Automation](https://img.shields.io/badge/Arista-EOS%20Automation-blue)
 
 # Ansible AVD & CVP TOI Labs
 
@@ -26,8 +26,37 @@ This repository is part of [`arista.cvp`](https://github.com/aristanetworks/ansi
   - _Lab 05_: [Devices](labs/lab05-cv-device)
   - _Lab 06_: [Tasks](labs/lab05-cv-tasks)
 
+## Getting Started
+
+```shell
+# Clone repository
+git clone https://github.com/arista-netdevops-community/ansible-cvp-toi.git
+
+# Move to directory
+cd ansible-cvp-toi
+
+# Start docker container
+$ docker run -it --rm -v $(PWD):/project avdteam/base:latest
+
+# Move to lab folder
+$ cd labs
+
+# Edit inventory file
+$ vim inventory.yml
+```
+
 ## Configure Lab Environment
 
-- [Arista Test Drive (ATD)](docs/atd-setup.md)
-- [Docker Environment](docs/docker-setup.md)
+- [Arista Test Drive (ATD)](docs/atd-setup.md) for lab environment
+- [Docker Environment](docs/docker-setup.md) (preferred method)
 - [Virtual Environment](docs/venv-setup.md)
+
+## Resources
+
+- [Arista Ansible AVD Collection](https://github.com/aristanetworks/ansible-avd)
+- [Arista Cloudvision Collection](https://github.com/aristanetworks/ansible-cvp)
+- [AVD & CVP Collections demo](https://github.com/arista-netdevops-community/ansible-avd-cloudvision-demo)
+
+## License
+
+Project is published under [Apache License]().
