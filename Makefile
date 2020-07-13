@@ -1,4 +1,4 @@
-CONTAINER ?= avdteam/base:centos-8
+CONTAINER ?= avdteam/base:3.6
 
 .PHONY: help
 help: ## Display help message (*: main entry points / []: part of an entry point)
