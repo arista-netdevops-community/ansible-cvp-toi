@@ -36,7 +36,7 @@ git clone https://github.com/arista-netdevops-community/ansible-cvp-toi.git
 cd ansible-cvp-toi
 
 # Start docker container
-$ docker run -it --rm -v $(PWD):/project avdteam/base:3.6
+$ docker run -it --rm -v $(PWD):/projects avdteam/base:3.6
 
 # Move to lab folder
 $ cd labs
