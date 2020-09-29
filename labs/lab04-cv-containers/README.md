@@ -28,7 +28,7 @@ CVP_CONTAINERS:
 __2. Create continers and move device.__
 
 ```shell
-$ ansible-playbook playbook.configlet.yml
+$ ansible-playbook playbook.container.yml
 ```
 
 > On cloudvision server, cancel task and move back device to its initial container
